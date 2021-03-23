@@ -32,7 +32,7 @@ public class EnvController {
         env.put("PORT", port);
         env.put("MEMORY_LIMIT", memoryLimit);
         env.put("CF_INSTANCE_INDEX", cfInstanceIndex);
-        env.put("CF_INSTANE_ADDR", cfInstanceAddr);
+        env.put("CF_INSTANCE_ADDR", cfInstanceAddr);
         return env;
     }
 
